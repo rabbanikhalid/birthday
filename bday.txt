@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Nabiha!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #ff6b6b;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        .birthday-date {
+            font-size: 1.5em;
+            color: #ff6b6b;
+            margin-bottom: 30px;
+        }
+
+        .balloons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .balloon {
+            width: 60px;
+            height: 90px;
+            background-color: #ff6b6b;
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            position: relative;
+            animation: float 2s ease-in-out infinite;
+        }
+
+        .balloon::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: -20px;
+            width: 2px;
+            height: 30px;
+            background-color: #ff6b6b;
+            transform: translateX(-50%);
+        }
+
+        .balloon:nth-child(2) {
+            background-color: #ffd1dc;
+            animation-duration: 2.5s;
+        }
+
+        .balloon:nth-child(3) {
+            background-color: #c3b6ff;
+            animation-duration: 3s;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>HAPPYY 19TH BIRTHDAYYY NABBBBUUUUUUUU!!!</h1>
+        <p>THE CUTEST AND SWEETESTT GIRLLL TO EXISTTTTT!!!!!! ENJOYYYYYYYYYY POOOKIEEEEE</p>
+        <p>(so sorry i couldnt gift u anything)</p>
+        <div class="birthday-date">22nd August 2024</div>
+        <div class="balloons">
+            <div class="balloon"></div>
+            <div class="balloon"></div>
+            <div class="balloon"></div>
+        </div>
+        <footer>With love, from KHALLODDII</footer>
+    </div>
+</body>
+</html>
